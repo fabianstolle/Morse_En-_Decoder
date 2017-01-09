@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Morse_En-_Decoder" target="1.5" />
+      <module name="Morse_En-_Decoder" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
