@@ -35,8 +35,6 @@ public class MorseCodeGUI {
         });
     }
     public static void main(String[] args) {
-        String outputBuffer;
-        Encoder dencode = new Encoder();
         JFrame frame = new JFrame("Morsecode De-/Encoder");
         frame.setContentPane(new MorseCodeGUI().anwendung);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
