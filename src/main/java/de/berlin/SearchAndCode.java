@@ -23,10 +23,10 @@ public class SearchAndCode {
         if (inputChar[0] != '-' && inputChar[0] != '.') {
             outputStringArray=createMorseCode(inputChar, i, j);
             i = 0;
-            System.out.print("\nyou wrote:" + inputString + "\n in Morsecode it is :");
+            //System.out.print("\nyou wrote:" + inputString + "\n in Morsecode it is :");
             // Ausgabe des Codes
             while (i != outputStringArray.length) {
-                System.out.print(outputStringArray[i] + "_");
+                //System.out.print(outputStringArray[i] + "_");
                 outputString = outputString + outputStringArray[i] + "_";
                 i++;
             }
@@ -75,10 +75,10 @@ public class SearchAndCode {
         if (inputChar[0] == '-' || inputChar[0] == '.') {
             k = createAsciiCode(inputChar, outputStringArray, compareValues, j, d, k);
             i = 0;
-            System.out.print("\nyou wrote:" + inputString + "\n in Morsecode it is :");
+           // System.out.print("\nyou wrote:" + inputString + "\n in Morsecode it is :");
             // Ausgabe des Codes
             while (i < (k)) {
-                System.out.print(outputStringArray[i]);
+                //System.out.print(outputStringArray[i]);
                 outputString = outputString + outputStringArray[i];
                 i++;
             }

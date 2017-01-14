@@ -18,7 +18,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>de.berlin.Encoder</mainClass>
+                            <mainClass>Gui.MorseCodeGUI</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -42,7 +42,5 @@ public class MorseCodeGUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-        outputBuffer = dencode.getCode("asd");
-        System.out.println(outputBuffer);
     }
 }
