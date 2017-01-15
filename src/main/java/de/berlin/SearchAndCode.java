@@ -5,6 +5,11 @@ import java.util.Arrays;
 
 /**
  * Created by Stolle Fabian on 27.11.2016.
+ * Die Methoden dieser Klasse wandeln den einkommenden String in Morsecode bzw Ascii um. Das Prinzip ist wie folt:
+ * - Aufspalten des inputstrings in chars
+ * - vergleichen der Zeichen mit einem Array
+ * - sobald eine Übereinstimmung ist wird im gegenüberliegenden Array das codierte Äquivalent selektiert und abgespeichert in einem weiteren Array.
+ * - Nachdem alle Inputzeichen durchgearbeitet wurden, wird das Ergebnissarray wieder zu einem String zusammengefügt und returned.
  */
 public class SearchAndCode {
     String inputString;

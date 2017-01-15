@@ -5,18 +5,18 @@ import java.util.Scanner;
 
 /**
  * Created by Stolle Fabian on 14.11.2016.
- *
+ *  In dieser Klasse werden mit hilfe der Readfile-Klasse die Txt Datein in dem Systemspeicher eingelesen und zur Verfügung gestellt.
+ *  Daraufhin wird die Codierung mit Hilfe der Methoden getAsciiCode bzw getMorseCode aufgerufen. Das Codieren wird mit der Klasse SearchAndCode realisiert.
  */
 public class Input_Output {
     private ReadFile asciiCode = new ReadFile(42, "D:\\UNI\\Semester_5\\Software Engineering\\Uebung\\Morse_En-_Decoder\\src\\main\\java\\ASCIIcode.txt");
     private ReadFile morseCode = new ReadFile(42, "D:\\UNI\\Semester_5\\Software Engineering\\Uebung\\Morse_En-_Decoder\\src\\main\\java\\Morsecode.txt");
+    // Erstellen von eines Arrays aus den txt dateien
+    private String[] asciiArray = asciiCode.getArray();
+    private String[] morseArray = morseCode.getArray();
 
     public String getAsciiCode(String inputString) {
         String outputString;
-        // Erstellen von eines Arrays aus den txt dateien
-        String[] asciiArray = asciiCode.getArray();
-        String[] morseArray = morseCode.getArray();
-        // Eingabe Aufforderung
         // Analyse und Codierung in Morsecode der Eingabe
         SearchAndCode asciiToMorse = new SearchAndCode(inputString, asciiArray.length,asciiArray, morseArray);
         outputString = asciiToMorse.getAsciiCode();
@@ -25,10 +25,6 @@ public class Input_Output {
     }
     public String getMorseCode(String inputString) {
         String outputString;
-        String[] asciiArray = asciiCode.getArray();
-        String[] morseArray = morseCode.getArray();
-        int i = 0;
-        // Eingabe Aufforderung
         // Analyse und Codierung in Morsecode der Eingabe
         SearchAndCode asciiToMorse = new SearchAndCode(inputString, asciiArray.length, asciiArray, morseArray);
         outputString = asciiToMorse.getMorseCode();

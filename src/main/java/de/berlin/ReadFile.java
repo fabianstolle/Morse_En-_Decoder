@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 /**
  * Created by Stolle Fabian on 14.11.2016.
+ * Dieser Code dient dem Einlesen  von den TXT-Datein und Speichert diese im Systemspeicher.
  */
 public class ReadFile {
     String file;

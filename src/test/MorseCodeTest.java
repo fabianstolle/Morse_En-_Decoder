@@ -7,6 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Created by Stolle Fabian on 09.01.2017.
+ * In dieser Test-Klasse werden input und Output miteinander Verglichen.
  */
 public class MorseCodeTest {
     private Input_Output checkMorseCode;

@@ -8,6 +8,8 @@ import java.awt.event.ActionListener;
 
 /**
  * Created by Stolle Fabian on 14.01.2017.
+ * Diese Klasse beinhaltet die GUI der Software. in dieser werden Aussehen und Funktionalität der Benutzeroerfläsche festgelegt.
+ * Hier befindet sich ebenfalls die Main mit der das Programm ausgeführt werden soll.
  */
 public class MorseCodeGUI {
     private JButton codierenButton;
