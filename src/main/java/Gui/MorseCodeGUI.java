@@ -16,6 +16,7 @@ public class MorseCodeGUI {
     private JTextField inputString;
     private JTextField outputString;
     private JPanel anwendung;
+    private JTextArea zeichenbedeutungKurzLang_TextArea;
     private Encoder encode = new Encoder();
     private String outputBuffer = "";
     public MorseCodeGUI() {
