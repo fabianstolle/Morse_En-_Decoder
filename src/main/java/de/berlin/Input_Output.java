@@ -9,8 +9,8 @@ import java.util.Scanner;
  *  Daraufhin wird die Codierung mit Hilfe der Methoden getAsciiCode bzw getMorseCode aufgerufen. Das Codieren wird mit der Klasse SearchAndCode realisiert.
  */
 public class Input_Output {
-    private ReadFile asciiCode = new ReadFile(42, "D:\\UNI\\Semester_5\\Software Engineering\\Uebung\\Morse_En-_Decoder\\src\\main\\java\\ASCIIcode.txt");
-    private ReadFile morseCode = new ReadFile(42, "D:\\UNI\\Semester_5\\Software Engineering\\Uebung\\Morse_En-_Decoder\\src\\main\\java\\Morsecode.txt");
+    private ReadFile asciiCode = new ReadFile(42, "D:\\UNI\\Semester_5\\Software Engineering\\Uebung\\Morse_En-_Decoder\\src\\main\\resources\\ASCIIcode.txt");
+    private ReadFile morseCode = new ReadFile(42, "D:\\UNI\\Semester_5\\Software Engineering\\Uebung\\Morse_En-_Decoder\\src\\main\\resources\\Morsecode.txt");
     // Erstellen von eines Arrays aus den txt dateien
     private String[] asciiArray = asciiCode.getArray();
     private String[] morseArray = morseCode.getArray();
