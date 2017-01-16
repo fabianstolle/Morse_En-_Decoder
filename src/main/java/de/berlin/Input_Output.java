@@ -1,8 +1,5 @@
 package de.berlin;
 
-
-import java.util.Scanner;
-
 /**
  * Created by Stolle Fabian on 14.11.2016.
  *  In dieser Klasse werden mit hilfe der Readfile-Klasse die Txt Datein in dem Systemspeicher eingelesen und zur Verfügung gestellt.
