@@ -20,7 +20,7 @@ public class MorseCodeGUI {
     private Encoder encode = new Encoder();
     private String outputBuffer = "";
     public MorseCodeGUI() {
-        codierenButton.addActionListener(new ActionListener() {
+        codierenButton.addActionListener (new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 outputBuffer = encode.getCode(inputString.getText());
